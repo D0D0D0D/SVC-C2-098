@@ -1,0 +1,45 @@
+{
+  "schema_version": "1",
+  "template_id": "SVC-C2-098",
+  "category": "cat2",
+  "mode": "provisional",
+  "doc_committed": true,
+  "deploy_exit_code": 0,
+  "first_invoke_status": "200",
+  "payload_hash": "sha256:53042a2fedd0a32c16b780435b650e5d30c8d8cb069702d4dde4d09727f64c20",
+  "assertions": [
+    {
+      "name": "manifest_parsed",
+      "passed": true
+    },
+    {
+      "name": "payload_json_valid",
+      "passed": true
+    },
+    {
+      "name": "health_200",
+      "passed": true
+    },
+    {
+      "name": "invoke_200",
+      "passed": true
+    },
+    {
+      "name": "response_json_valid",
+      "passed": true
+    },
+    {
+      "name": "agent_status_success",
+      "passed": true
+    },
+    {
+      "name": "no_security_violation",
+      "passed": true
+    }
+  ],
+  "overall": "PASS",
+  "invoked_at": "2026-07-24T02:39:23.805104+00:00",
+  "deploy_duration_sec": 0.0,
+  "invoke_latency_ms": 6,
+  "env_id": null
+}
